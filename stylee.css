@@ -1,0 +1,376 @@
+.gray-bg {
+  background: #eeeeee;
+}
+
+/*==========================
+     16. Profile-page
+     ================================*/
+
+.inner_pages {
+  padding: 80px 0;
+}
+.user_profile_info {
+  margin: 0 auto 45px;
+  max-width: 660px;
+  overflow: hidden;
+}
+.upload_user_logo {
+  float: left;
+  position: relative;
+  width: 28%;
+}
+
+.upload_user_logo img {
+  max-width: 100%;
+}
+.dealer_info {
+  float: right;
+  width: 66%;
+  padding: 10px 0;
+}
+.profile_wrap {
+  padding: 16px 5px;
+}
+.profile_nav {
+  border-right: 1px solid #c5c5c5;
+  padding: 20px;
+  text-align: right;
+}
+.profile_nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+.profile_nav ul li {
+  list-style: none;
+}
+.profile_nav ul li a {
+  color: #555;
+  font-size: 15px;
+  font-weight: 900;
+}
+.profile_nav ul li.active a,
+.profile_nav ul li a:hover {
+  color: #fa2837;
+}
+
+.btn {
+  border: medium none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 30px;
+  margin: auto;
+  padding: 7px 36px;
+  transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+}
+.btn .fa {
+  font-size: 20px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.btn.btn-lg {
+  font-size: 28px;
+  line-height: 35px;
+  padding: 25px 83px;
+}
+.btn.btn-lg:hover {
+  background: #c51514;
+}
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  outline: none;
+}
+.btn-link {
+  font-weight: 800;
+}
+.btn.outline {
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+}
+.btn.outline:hover,
+.btn.outline:focus {
+  color: #fff;
+}
+.btn.btn-xs {
+  font-size: 12px;
+  padding: 0px 25px;
+}
+.btn.btn-xs .fa {
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.angle_arrow {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 22px;
+  line-height: 20px;
+  margin-left: 4px;
+  text-align: center;
+  vertical-align: text-top;
+  width: 22px;
+}
+.btn .angle_arrow .fa {
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  vertical-align: middle;
+}
+.btn.outline.non-btn {
+  border-color: #089901;
+  color: #089901;
+}
+.btn.outline.non-btn:hover {
+  background: #089901;
+  color: #fff;
+}
+.btn.outline.active-btn {
+  border-color: blue;
+  color: blue;
+}
+.btn.outline.active-btn:hover {
+  background: blue;
+  color: #fff;
+}
+
+a,
+.btn-link,
+.car-title-m h6 a:hover,
+.featured-car-content > h6 a:hover,
+.footer-top ul li a:hover,
+.get-intouch a:hover,
+.blog-content h5 a:hover,
+.blog-info-box li a:hover,
+.control-label span,
+.angle_arrow i,
+.contact_detail li a:hover,
+.team_more_info p a:hover,
+.error_text_m h2,
+.search_btn,
+.popular_post_title a:hover,
+.categories_list ul li a:hover,
+.categories_list ul li a:hover:after,
+.article_meta ul li a:hover,
+.articale_header h2 a:hover,
+.btn.outline,
+.share_article ul li,
+.contact-info a:hover,
+.social-follow a:hover,
+.radio input[type="radio"]:checked + label:before,
+.checkbox input[type="checkbox"]:checked + label:before,
+.product-listing-content h5 a:hover,
+.pricing_info .price,
+.text-primary,
+.footer_widget ul li a:hover,
+a:hover,
+a:focus,
+.btn-link:hover {
+  color: #ff0012;
+  fill: #ff0012;
+}
+
+.btn,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.recent-tab .nav.nav-tabs li.active a,
+.fun-facts-m,
+.featured-icon,
+.owl-pagination .owl-page.active,
+#testimonial-slider .owl-pagination .owl-page.active,
+.social-follow.footer-social a:hover,
+.back-top a,
+.team_more_info ul li a:hover,
+.tag_list ul li a:hover,
+.pagination ul li.current,
+.pagination ul li:hover,
+.btn.outline:hover,
+.btn.outline:focus,
+.share_article ul li:hover,
+.nav-tabs > li a:hover,
+.nav-tabs > li a:focus,
+.label-icon,
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover,
+.label_icon,
+.navbar-nav > li > .dropdown-menu,
+.add_compare .checkbox,
+.search_other,
+.vs,
+.td_divider,
+.search_other_inventory,
+#other_info,
+.main_bg,
+.slider .slider-handle,
+.slider .slider-selection {
+  background: #fa2837 none repeat scroll 0 0;
+  fill: #fa2837;
+}
+.btn:hover,
+.btn:focus,
+.search_other:hover,
+#other_info:hover {
+  background-color: #c60210;
+  fill: #fb4d59;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.social-follow.footer-social a:hover,
+.page-header,
+.tag_list ul li a:hover,
+.btn.outline,
+.share_article ul li,
+blockquote,
+.social-follow a:hover,
+.radio label:before,
+.navbar-default .navbar-toggle,
+.owl-buttons div,
+.about_info .icon_box {
+  border-color: #fa2837;
+}
+
+.recent-tab .nav.nav-tabs li.active::after {
+  border-color: #fa2837 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.td_divider:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fa2837;
+}
+
+.navbar-nav > li > .dropdown-menu li {
+  border-bottom: 1px solid #e21625;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fa2837;
+  }
+}
+
+/*-------------------------
+        1.3. dark-overlay
+        ---------------------------------*/
+.div_zindex {
+  position: relative;
+  z-index: 1;
+}
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/*--------------------------
+     16.1. Post-a-vehicle
+     -------------------------------*/
+.vehicle_accessories,
+.vehicle_type {
+  clear: both;
+  margin: 0 auto 30px;
+  display: table;
+  width: 100%;
+}
+.accessories_list {
+  margin-top: 10px !important;
+  clear: left;
+}
+
+@media (min-width: 991px) {
+  .accessories_list:nth-child(2n) {
+    clear: right;
+  }
+}
+.vehicle_type .radio label::before {
+  height: 24px;
+  width: 24px;
+  border: #000 solid 1px;
+}
+.vehicle_type .radio input[type="radio"]:checked + label::before {
+  font-size: 35px;
+  line-height: 15px;
+}
+.vehicle_type .radio label {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 34px;
+  color: #111;
+  line-height: 32px;
+}
+.vehicle_images {
+  display: table;
+  width: 100%;
+}
+.vehicle_images > div {
+  float: left;
+  height: 95px;
+  margin: 0 10px 10px 0;
+  width: 150px;
+}
+.vehicle_images img {
+  max-width: 100%;
+}
+.upload_more_img {
+  position: relative;
+  border: #eee solid 1px;
+}
+
+/*--------------
+     16.2. my-vehicles
+     -------------------------*/
+
+.my_vehicles_list ul.vehicle_listing {
+  padding: 0px;
+  margin: 0 0 50px;
+}
+.my_vehicles_list ul.vehicle_listing li {
+  list-style: none;
+  border-bottom: #e6e6e6 solid 1px;
+  padding: 14px 0 22px;
+  overflow: hidden;
+  position: relative;
+}
+.vehicle_img {
+  float: left;
+  margin-right: 22px;
+  width: 22%;
+}
+.vehicle_img img {
+  max-width: 100%;
+}
+.my_vehicles_list ul.vehicle_listing li a {
+  color: #111;
+}
+.vehicle_title {
+  float: left;
+  padding: 12px 0;
+  width: 40%;
+}
+.vehicle_status {
+  float: right;
+  text-align: right;
+  width: 25%;
+}
+.vehicle_status a i {
+  margin: 10px 0 0 8px;
+  color: #555;
+  font-size: 18px;
+}
+.deactive_vehicle {
+  opacity: 0.3;
+}
